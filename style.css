@@ -124,3 +124,39 @@ body {
     width: 170px;
   }
 }
+
+@media only screen and (max-width: 314px) {
+  #zero {
+    width: 165px;
+  }
+}
+
+@media only screen and (max-width: 305px) {
+  #zero {
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 296px) {
+  #zero {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 292px) {
+  #zero {
+    width: 140px;
+  }
+  .input-section button {
+    margin: 3px;
+  }
+}
+
+@media only screen and (max-width: 256px) {
+  #zero {
+    width: 130px;
+  }
+  .input-section button {
+    margin: 2px;
+  }
+}
