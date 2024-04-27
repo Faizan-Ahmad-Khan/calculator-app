@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(51, 51, 51);
+}
+
+.main-body {
+  max-width: 300px;
+  margin: 50px auto;
+  border: 3px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+  background-color: #000000;
+}
+
+.output-section {
+  margin-bottom: 15px;
+}
+
+#output {
+  width: 100%;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#output:focus {
+  border-color: #000;
+}
+
+.input-section button {
+  width: 62px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 13px;
+  background-color: #272727;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #808080;
+}
+
+.input-section button:active {
+  transform: translateY(4px);
+}
