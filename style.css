@@ -64,99 +64,41 @@ body {
   }
 
   .input-section button {
+    width: 21%;
+    height: 40px;
+    font-size: 14px;
+    margin: 4px;
+  }
+
+  #zero {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 338px) {
+  #zero {
+    width: 67%;
+  }
+  .input-section button {
     width: 20%;
     height: 40px;
     font-size: 14px;
-    margin: 10;
-  }
-
-  #zero {
-    width: 209px;
-  }
-}
-
-@media only screen and (max-width: 354px) {
-  .main-body {
-    max-width: 85%;
-  }
-  #zero {
-    width: 200px;
-  }
-}
-
-@media only screen and (max-width: 348px) {
-  .main-body {
-    max-width: 80%;
-  }
-  #zero {
-    width: 185px;
-  }
-}
-
-@media only screen and (max-width: 343px) {
-  .main-body {
-    max-width: 75%;
-  }
-  #zero {
-    width: 182px;
-  }
-}
-
-@media only screen and (max-width: 342px) {
-  .main-body {
-    max-width: 85%;
-  }
-  #zero {
-    width: 193px;
-  }
-}
-
-@media only screen and (max-width: 336px) {
-  .main-body {
-    max-width: 80%;
-  }
-  .input-section button {
-    width: 20%;
-    height: 40px;
-    margin: 4px;
-  }
-  #zero {
-    width: 170px;
-  }
-}
-
-@media only screen and (max-width: 314px) {
-  #zero {
-    width: 165px;
-  }
-}
-
-@media only screen and (max-width: 305px) {
-  #zero {
-    width: 160px;
-  }
-}
-
-@media only screen and (max-width: 296px) {
-  #zero {
-    width: 150px;
-  }
-}
-
-@media only screen and (max-width: 292px) {
-  #zero {
-    width: 140px;
-  }
-  .input-section button {
     margin: 3px;
   }
 }
 
 @media only screen and (max-width: 256px) {
-  #zero {
-    width: 130px;
+  .main-body {
+    max-width: 65%;
   }
+
   .input-section button {
+    width: 20%;
+    height: 40px;
     margin: 2px;
+  }
+
+  #zero {
+    width: 40%;
   }
 }
